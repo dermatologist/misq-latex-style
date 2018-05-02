@@ -15,6 +15,10 @@ I don't intend to be very active in maintaining this repository. Volunteers who 
 like to take over or fork this repository are very welcome, although I will do
 my best to answer any inquiries related to this repository as good as possible.
 
+## Changes
+
+1. Adapted for sharelatex
+
 ## Files
 
 The style consists of two files, 'misqdoc.cls' for the LaTeX document class and

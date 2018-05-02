@@ -11,8 +11,14 @@
 % Or you must manually choose to compile with XeLaTeX
 
 % These 3 are required to use the Georgia font family
-\RequirePackage{xltxtra}
-\RequirePackage{fontspec}
+%\RequirePackage{xltxtra}
+%\RequirePackage{fontspec}
+%\usepackage{fontspec}
+%\setromanfont{Times New Roman}
+
+% No Times New Romain in Latex, Closest is this.
+\usepackage{mathptmx}
+
 \RequirePackage{xunicode}
 \RequirePackage{graphicx}
 \RequirePackage[labelsep=period,font=bf]{caption}   % Replace caption colon with
@@ -32,8 +38,8 @@
 % For MISQ we need left justified text
 \RequirePackage[document]{ragged2e}
 
-\defaultfontfeatures{Scale=MatchLowercase}
-\setmainfont[Ligatures={Common,TeX}]{Times New Roman}
+% \defaultfontfeatures{Scale=MatchLowercase}
+% \setmainfont[Ligatures={Common,TeX}]{Times New Roman}
 % \setromanfont[Numbers=Uppercase]{Georgia}
 
 
